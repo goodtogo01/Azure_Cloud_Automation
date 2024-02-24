@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="reports.ExtentReporterNG"></listener>
+    </listeners>
+    <parameter name="browser" value="chrome"></parameter>
+    <test thread-count="2" name="Run with Chrome Browser">
+        <classes>
+            <class name="testPage.HomePageTests">
+                <methods>
+                    <include name="logoTest">
+                    </include>
+<!--                    <include name="pageTitle">-->
+<!--                    </include>-->
+<!--                    <include name="footerManue">-->
+<!--                    </include>-->
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
