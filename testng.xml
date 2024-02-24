@@ -5,18 +5,25 @@
         <listener class-name="reports.ExtentReporterNG"></listener>
     </listeners>
     <parameter name="browser" value="chrome"></parameter>
-    <test thread-count="2" name="Run with Chrome Browser">
+    <test thread-count="3" name="Run with Chrome Browser">
         <classes>
             <class name="testPage.HomePageTests">
                 <methods>
                     <include name="logoTest">
                     </include>
-<!--                    <include name="pageTitle">-->
-<!--                    </include>-->
-<!--                    <include name="footerManue">-->
-<!--                    </include>-->
+                  <include name="titleTest">
+                   </include> 
+                   <include name="footerManue">
+                   </include>
                 </methods>
             </class>
         </classes>
     </test> <!-- Test -->
+     <parameter name="browser" value="firefox"></parameter>
+    <test thread-count="2" name="Run with Firefox Browser">
+        <classes>
+            <class name="testPage.HomePageTests">
+            </class>
+        </classes>
+    </test> 
 </suite> <!-- Suite -->
