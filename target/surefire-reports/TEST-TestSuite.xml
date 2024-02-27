@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="81.985" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="80.352" tests="6" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="20"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\zaman\eclipse-workspace\Azure_Cloud_Automation\target\test-classes;C:\Users\zaman\eclipse-workspace\Azure_Cloud_Automation\target\classes;C:\Users\zaman\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\zaman\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\zaman\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\zaman\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\zaman\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\zaman\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\zaman\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\zaman\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\zaman\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\zaman\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\zaman\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\zaman\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\zaman\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\zaman\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\zaman\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\zaman\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\zaman\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\zaman\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\zaman\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\zaman\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\zaman\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\zaman\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\zaman\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\zaman\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\zaman\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\zaman\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\zaman\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\zaman\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\zaman\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\zaman\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\zaman\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\zaman\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\zaman\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\zaman\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\zaman\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\zaman\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\zaman\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\zaman\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\zaman\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="20"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\zaman\AppData\Local\Temp\surefire14082601631855545714\surefirebooter-20240224152152821_3.jar C:\Users\zaman\AppData\Local\Temp\surefire14082601631855545714 2024-02-24T15-21-52_680-jvmRun1 surefire-20240224152152821_1tmp surefire_0-20240224152152821_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Users\zaman\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\zaman\AppData\Local\Temp\surefire5136868496641253967\surefirebooter-20240227131814559_3.jar C:\Users\zaman\AppData\Local\Temp\surefire5136868496641253967 2024-02-27T13-18-14_330-jvmRun1 surefire-20240227131814559_1tmp surefire_0-20240227131814559_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\zaman\eclipse-workspace\Azure_Cloud_Automation\target\test-classes;C:\Users\zaman\eclipse-workspace\Azure_Cloud_Automation\target\classes;C:\Users\zaman\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\zaman\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\zaman\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\zaman\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\zaman\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\zaman\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\zaman\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\zaman\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\zaman\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\zaman\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\zaman\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\zaman\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\zaman\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\zaman\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\zaman\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\zaman\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\zaman\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\zaman\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\zaman\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\zaman\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\zaman\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\zaman\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\zaman\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\zaman\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\zaman\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\zaman\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\zaman\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\zaman\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\zaman\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\zaman\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\zaman\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\zaman\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\zaman\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\zaman\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\zaman\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\zaman\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\zaman\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\zaman\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\zaman\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\zaman\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\zaman\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\zaman\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -23,132 +23,133 @@
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2023-07-18"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="java.home" value="C:\Users\zaman\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951\jre"/>
     <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
     <property name="basedir" value="C:\Users\zaman\eclipse-workspace\Azure_Cloud_Automation"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\zaman\AppData\Local\Temp\surefire14082601631855545714\surefirebooter-20240224152152821_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\zaman\AppData\Local\Temp\surefire5136868496641253967\surefirebooter-20240227131814559_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="20.0.2+9-78"/>
+    <property name="java.runtime.version" value="17.0.8+7"/>
     <property name="user.name" value="zaman"/>
-    <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8+7"/>
     <property name="localRepository" value="C:\Users\zaman\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\zaman\AppData\Local\Temp\"/>
-    <property name="java.version" value="20.0.2"/>
+    <property name="java.version" value="17.0.8"/>
     <property name="user.dir" value="C:\Users\zaman\eclipse-workspace\Azure_Cloud_Automation"/>
     <property name="os.arch" value="amd64"/>
     <property name="webdriver.gecko.driver" value="C:\Users\zaman\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/zaman/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin/server;C:/Users/zaman/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Ruby32-x64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MAVEN\apache-maven-3.8.8\bin;C:\Program Files\MAVEN\allure-2.24.0\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\zaman\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\MAVEN\apache-maven-3.8.8\bin;C:\Users\zaman\AppData\Local\Microsoft\WindowsApps;C:\Users\zaman\AppData\Roaming\npm;C:\Users\zaman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Users\zaman\AppData\Roaming\Python\Python311\Scripts;;C:\Users\zaman\OneDrive\Desktop;;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="Cp1252"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="20.0.2+9-78"/>
+    <property name="java.library.path" value="C:\Users\zaman\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/zaman/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin/server;C:/Users/zaman/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Ruby32-x64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MAVEN\apache-maven-3.8.8\bin;C:\Program Files\MAVEN\allure-2.24.0\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\zaman\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\MAVEN\apache-maven-3.8.8\bin;C:\Users\zaman\AppData\Local\Microsoft\WindowsApps;C:\Users\zaman\AppData\Roaming\npm;C:\Users\zaman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Users\zaman\AppData\Roaming\Python\Python311\Scripts;;C:\Users\zaman\OneDrive\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.8+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="64.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="logoTest" classname="testPage.HomePageTests" time="0.203">
+  <testcase name="logoTest" classname="testPage.HomePageTests" time="0.073">
     <system-out><![CDATA[Logo found......
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1708806114273	geckodriver	INFO	Listening on 127.0.0.1:19446
-1708806114506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofiledw4iNc"
+1709057897693	geckodriver	INFO	Listening on 127.0.0.1:25002
+1709057897942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofileYdpVBe"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1708806115299	Marionette	INFO	Marionette enabled
+1709057898528	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1708806116104	Marionette	INFO	Listening on port 60283
-Read port: 60283
-1708806116335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Feb 24, 2024 3:21:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1709057899042	Marionette	INFO	Listening on port 62145
+Read port: 62145
+1709057899315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Feb 27, 2024 1:18:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+JavaScript error: https://www.freshworks.com/ line 691 > injectedScript, line 1: ReferenceError: Demandbase is not defined
 JavaScript warning: https://fw-cdn.com/999/3482387.js, line 3: unreachable code after return statement
 ]]></system-err>
   </testcase>
-  <testcase name="logoTest" classname="testPage.HomePageTests" time="0.059">
+  <testcase name="logoTest" classname="testPage.HomePageTests" time="0.039">
     <system-out><![CDATA[Logo found......
 ]]></system-out>
-    <system-err><![CDATA[1708806156442	Marionette	INFO	Stopped listening on port 60740
+    <system-err><![CDATA[1709057928348	Marionette	INFO	Stopped listening on port 62530
 JavaScript warning: https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049, line 1: Script terminated by timeout at:
 init/<@https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049:1:35729
 
 Dynamically enable window occlusion 1
-1708806159031	geckodriver	INFO	Listening on 127.0.0.1:57712
-1708806159055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofileAyWHji"
+1709057929681	geckodriver	INFO	Listening on 127.0.0.1:9316
+1709057929702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofileedpeBY"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1708806159515	Marionette	INFO	Marionette enabled
+1709057930106	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1708806159891	Marionette	INFO	Listening on port 60965
-Read port: 60965
-1708806160043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Feb 24, 2024 3:22:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1709057930374	Marionette	INFO	Listening on port 62668
+Read port: 62668
+1709057930511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Feb 27, 2024 1:18:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://fw-cdn.com/999/3482387.js, line 3: unreachable code after return statement
+]]></system-err>
+  </testcase>
+  <testcase name="titleTest" classname="testPage.HomePageTests" time="0.006">
+    <system-out><![CDATA[
+Page Title is.................: Innovative Software for Business Needs | Freshworks
+]]></system-out>
+    <system-err><![CDATA[1709057910376	Marionette	INFO	Stopped listening on port 62145
+JavaScript warning: https://b-code.liadm.com/a-07ph.min.js, line 1: Script terminated by timeout at:
+rn/<@https://b-code.liadm.com/a-07ph.min.js:1:45567
+
+Dynamically enable window occlusion 1
+1709057911340	geckodriver	INFO	Listening on 127.0.0.1:50644
+1709057911383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofilen2YaYm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709057911808	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709057912092	Marionette	INFO	Listening on port 62342
+Read port: 62342
+1709057912228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Feb 27, 2024 1:18:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://fw-cdn.com/999/3482387.js, line 3: unreachable code after return statement
+]]></system-err>
+  </testcase>
+  <testcase name="titleTest" classname="testPage.HomePageTests" time="0.004">
+    <system-out><![CDATA[
+Page Title is.................: Innovative Software for Business Needs | Freshworks
+]]></system-out>
+    <system-err><![CDATA[1709057936908	Marionette	INFO	Stopped listening on port 62668
+JavaScript warning: https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049, line 1: Script terminated by timeout at:
+init/<@https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049:1:35729
+
+Dynamically enable window occlusion 1
+1709057938098	geckodriver	INFO	Listening on 127.0.0.1:24827
+1709057938126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofileHudra7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709057938513	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709057938764	Marionette	INFO	Listening on port 62873
+Read port: 62873
+1709057938909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Feb 27, 2024 1:18:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript error: https://www.freshworks.com/ line 691 > injectedScript, line 1: ReferenceError: Demandbase is not defined
 JavaScript warning: https://fw-cdn.com/999/3482387.js, line 3: unreachable code after return statement
 ]]></system-err>
   </testcase>
-  <testcase name="titleTest" classname="testPage.HomePageTests" time="0.01">
-    <system-out><![CDATA[
-Page Title is.................: Innovative Software for Business Needs | Freshworks
-]]></system-out>
-    <system-err><![CDATA[1708806137944	Marionette	INFO	Stopped listening on port 60283
-JavaScript warning: https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049, line 1: Script terminated by timeout at:
-init/<@https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049:1:35729
-
-Dynamically enable window occlusion 1
-1708806139097	geckodriver	INFO	Listening on 127.0.0.1:34136
-1708806139126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofileRDEpor"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1708806139623	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1708806139949	Marionette	INFO	Listening on port 60561
-Read port: 60561
-1708806140134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Feb 24, 2024 3:22:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript warning: https://fw-cdn.com/999/3482387.js, line 3: unreachable code after return statement
-]]></system-err>
-  </testcase>
-  <testcase name="titleTest" classname="testPage.HomePageTests" time="0.009">
-    <system-out><![CDATA[
-Page Title is.................: Innovative Software for Business Needs | Freshworks
-]]></system-out>
-    <system-err><![CDATA[1708806169589	Marionette	INFO	Stopped listening on port 60965
-JavaScript warning: https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049, line 1: Script terminated by timeout at:
-init/<@https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049:1:35729
-
-Dynamically enable window occlusion 1
-1708806171685	geckodriver	INFO	Listening on 127.0.0.1:28134
-1708806171724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofileEI2jku"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1708806172280	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1708806172683	Marionette	INFO	Listening on port 61220
-Read port: 61220
-1708806172875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Feb 24, 2024 3:22:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript warning: https://fw-cdn.com/999/3482387.js, line 3: unreachable code after return statement
-]]></system-err>
-  </testcase>
-  <testcase name="footerManue" classname="testPage.HomePageTests" time="0.066">
+  <testcase name="footerManue" classname="testPage.HomePageTests" time="0.039">
     <system-out><![CDATA[
 Footer Items found as : ......................
 Legal
@@ -161,27 +162,26 @@ Accessibility
 Unsubscribe
 Sitemap
 ]]></system-out>
-    <system-err><![CDATA[1708806145621	Marionette	INFO	Stopped listening on port 60561
+    <system-err><![CDATA[1709057919441	Marionette	INFO	Stopped listening on port 62342
 JavaScript warning: https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049, line 1: Script terminated by timeout at:
 init/<@https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049:1:35729
 
 Dynamically enable window occlusion 1
-1708806147106	geckodriver	INFO	Listening on 127.0.0.1:5455
-1708806147132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofile1Vzsjj"
+1709057920433	geckodriver	INFO	Listening on 127.0.0.1:64750
+1709057920447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofile6fkDt2"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1708806147784	Marionette	INFO	Marionette enabled
+1709057920873	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1708806148187	Marionette	INFO	Listening on port 60740
-Read port: 60740
-1708806148378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Feb 24, 2024 3:22:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1709057921164	Marionette	INFO	Listening on port 62530
+Read port: 62530
+1709057921310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Feb 27, 2024 1:18:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://fw-cdn.com/999/3482387.js, line 3: unreachable code after return statement
-JavaScript error: https://www.freshworks.com/ line 691 > injectedScript, line 1: ReferenceError: Demandbase is not defined
 ]]></system-err>
   </testcase>
-  <testcase name="footerManue" classname="testPage.HomePageTests" time="0.037">
+  <testcase name="footerManue" classname="testPage.HomePageTests" time="0.032">
     <system-out><![CDATA[
 Footer Items found as : ......................
 Legal
@@ -194,24 +194,22 @@ Accessibility
 Unsubscribe
 Sitemap
 ]]></system-out>
-    <system-err><![CDATA[1708806180766	Marionette	INFO	Stopped listening on port 61220
-JavaScript warning: https://connect.facebook.net/signals/config/463211681285603?v=2.9.147&r=stable&domain=www.freshworks.com&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100, line 92: Script terminated by timeout at:
-E@https://connect.facebook.net/signals/config/463211681285603?v=2.9.147&r=stable&domain=www.freshworks.com&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100:92:2223
-c@https://connect.facebook.net/signals/config/463211681285603?v=2.9.147&r=stable&domain=www.freshworks.com&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100:92:3238
+    <system-err><![CDATA[1709057947520	Marionette	INFO	Stopped listening on port 62873
+JavaScript warning: https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049, line 1: Script terminated by timeout at:
+init/<@https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js?id=1073748049:1:35729
 
 Dynamically enable window occlusion 1
-1708806182046	geckodriver	INFO	Listening on 127.0.0.1:24109
-1708806182057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofileAOy8rt"
+1709057950376	geckodriver	INFO	Listening on 127.0.0.1:38087
+1709057950400	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\zaman\\AppData\\Local\\Temp\\rust_mozprofilecLvRW7"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1708806182669	Marionette	INFO	Marionette enabled
+1709057950772	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1708806183057	Marionette	INFO	Listening on port 61420
-Read port: 61420
-1708806183225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Feb 24, 2024 3:23:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1709057951018	Marionette	INFO	Listening on port 63072
+Read port: 63072
+1709057951159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Feb 27, 2024 1:19:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript error: https://www.freshworks.com/ line 691 > injectedScript, line 1: ReferenceError: Demandbase is not defined
 JavaScript warning: https://fw-cdn.com/999/3482387.js, line 3: unreachable code after return statement
 ]]></system-err>
   </testcase>
