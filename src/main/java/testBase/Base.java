@@ -17,7 +17,8 @@ public class Base {
     WebDriver driver;
 
     @Parameters("browser")
-    public void setup(String browser) {
+    public void setup() {
+    	String browser = null;
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
