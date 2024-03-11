@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-27T20:27:50 EST" name="Suite" finished-at="2024-02-27T20:28:37 EST" duration-ms="46643">
+  <suite started-at="2024-02-27T20:43:38 EST" name="Suite" finished-at="2024-02-27T20:44:43 EST" duration-ms="64479">
     <groups>
     </groups>
-    <test started-at="2024-02-27T20:27:50 EST" name="Run with Chrome Browser" finished-at="2024-02-27T20:28:19 EST" duration-ms="28540">
+    <test started-at="2024-02-27T20:43:38 EST" name="Run with Chrome Browser" finished-at="2024-02-27T20:44:15 EST" duration-ms="36556">
       <class name="testPage.HomePageTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@662b4c69]" started-at="2024-02-27T20:27:50 EST" name="setup" finished-at="2024-02-27T20:28:00 EST" duration-ms="9483" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@49d904ec]" started-at="2024-02-27T20:43:38 EST" name="setup" finished-at="2024-02-27T20:43:49 EST" duration-ms="11352" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logoTest()[pri:1, instance:testPage.HomePageTests@662b4c69]" started-at="2024-02-27T20:28:00 EST" name="logoTest" finished-at="2024-02-27T20:28:00 EST" duration-ms="101" status="PASS">
+        <test-method signature="logoTest()[pri:1, instance:testPage.HomePageTests@49d904ec]" started-at="2024-02-27T20:43:49 EST" name="logoTest" finished-at="2024-02-27T20:43:50 EST" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@662b4c69]" started-at="2024-02-27T20:28:00 EST" name="closeBrowser" finished-at="2024-02-27T20:28:01 EST" duration-ms="875" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@49d904ec]" started-at="2024-02-27T20:43:50 EST" name="closeBrowser" finished-at="2024-02-27T20:43:51 EST" duration-ms="1339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@662b4c69]" started-at="2024-02-27T20:28:01 EST" name="setup" finished-at="2024-02-27T20:28:08 EST" duration-ms="7848" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@49d904ec]" started-at="2024-02-27T20:43:51 EST" name="setup" finished-at="2024-02-27T20:44:00 EST" duration-ms="9308" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="titleTest()[pri:2, instance:testPage.HomePageTests@662b4c69]" started-at="2024-02-27T20:28:08 EST" name="titleTest" finished-at="2024-02-27T20:28:08 EST" duration-ms="6" status="PASS">
+        <test-method signature="titleTest()[pri:2, instance:testPage.HomePageTests@49d904ec]" started-at="2024-02-27T20:44:00 EST" name="titleTest" finished-at="2024-02-27T20:44:00 EST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@662b4c69]" started-at="2024-02-27T20:28:08 EST" name="closeBrowser" finished-at="2024-02-27T20:28:09 EST" duration-ms="795" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@49d904ec]" started-at="2024-02-27T20:44:00 EST" name="closeBrowser" finished-at="2024-02-27T20:44:03 EST" duration-ms="3248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@662b4c69]" started-at="2024-02-27T20:28:09 EST" name="setup" finished-at="2024-02-27T20:28:18 EST" duration-ms="8431" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@49d904ec]" started-at="2024-02-27T20:44:03 EST" name="setup" finished-at="2024-02-27T20:44:13 EST" duration-ms="9968" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,19 +56,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="footerManue()[pri:3, instance:testPage.HomePageTests@662b4c69]" started-at="2024-02-27T20:28:18 EST" name="footerManue" finished-at="2024-02-27T20:28:18 EST" duration-ms="35" status="PASS">
+        <test-method signature="footerManue()[pri:3, instance:testPage.HomePageTests@49d904ec]" started-at="2024-02-27T20:44:13 EST" name="footerManue" finished-at="2024-02-27T20:44:14 EST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerManue -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@662b4c69]" started-at="2024-02-27T20:28:18 EST" name="closeBrowser" finished-at="2024-02-27T20:28:19 EST" duration-ms="920" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@49d904ec]" started-at="2024-02-27T20:44:14 EST" name="closeBrowser" finished-at="2024-02-27T20:44:15 EST" duration-ms="1060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testPage.HomePageTests -->
     </test> <!-- Run with Chrome Browser -->
-    <test started-at="2024-02-27T20:28:19 EST" name="Run with Firefox Browser" finished-at="2024-02-27T20:28:37 EST" duration-ms="18086">
+    <test started-at="2024-02-27T20:44:15 EST" name="Run with Firefox Browser" finished-at="2024-02-27T20:44:43 EST" duration-ms="27852">
       <class name="testPage.HomePageTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@1e1a0406]" started-at="2024-02-27T20:28:19 EST" name="setup" finished-at="2024-02-27T20:28:23 EST" duration-ms="4515" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@1dde4cb2]" started-at="2024-02-27T20:44:15 EST" name="setup" finished-at="2024-02-27T20:44:24 EST" duration-ms="9328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,15 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logoTest()[pri:1, instance:testPage.HomePageTests@1e1a0406]" started-at="2024-02-27T20:28:23 EST" name="logoTest" finished-at="2024-02-27T20:28:23 EST" duration-ms="35" status="PASS">
+        <test-method signature="logoTest()[pri:1, instance:testPage.HomePageTests@1dde4cb2]" started-at="2024-02-27T20:44:24 EST" name="logoTest" finished-at="2024-02-27T20:44:24 EST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@1e1a0406]" started-at="2024-02-27T20:28:23 EST" name="closeBrowser" finished-at="2024-02-27T20:28:24 EST" duration-ms="822" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@1dde4cb2]" started-at="2024-02-27T20:44:24 EST" name="closeBrowser" finished-at="2024-02-27T20:44:25 EST" duration-ms="991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@1e1a0406]" started-at="2024-02-27T20:28:24 EST" name="setup" finished-at="2024-02-27T20:28:31 EST" duration-ms="7087" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@1dde4cb2]" started-at="2024-02-27T20:44:25 EST" name="setup" finished-at="2024-02-27T20:44:32 EST" duration-ms="6600" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,15 +98,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="titleTest()[pri:2, instance:testPage.HomePageTests@1e1a0406]" started-at="2024-02-27T20:28:31 EST" name="titleTest" finished-at="2024-02-27T20:28:31 EST" duration-ms="13" status="PASS">
+        <test-method signature="titleTest()[pri:2, instance:testPage.HomePageTests@1dde4cb2]" started-at="2024-02-27T20:44:32 EST" name="titleTest" finished-at="2024-02-27T20:44:32 EST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@1e1a0406]" started-at="2024-02-27T20:28:31 EST" name="closeBrowser" finished-at="2024-02-27T20:28:32 EST" duration-ms="975" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@1dde4cb2]" started-at="2024-02-27T20:44:32 EST" name="closeBrowser" finished-at="2024-02-27T20:44:32 EST" duration-ms="825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@1e1a0406]" started-at="2024-02-27T20:28:32 EST" name="setup" finished-at="2024-02-27T20:28:36 EST" duration-ms="3788" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@1dde4cb2]" started-at="2024-02-27T20:44:32 EST" name="setup" finished-at="2024-02-27T20:44:41 EST" duration-ms="8679" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,11 +117,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="footerManue()[pri:3, instance:testPage.HomePageTests@1e1a0406]" started-at="2024-02-27T20:28:36 EST" name="footerManue" finished-at="2024-02-27T20:28:36 EST" duration-ms="42" status="PASS">
+        <test-method signature="footerManue()[pri:3, instance:testPage.HomePageTests@1dde4cb2]" started-at="2024-02-27T20:44:41 EST" name="footerManue" finished-at="2024-02-27T20:44:41 EST" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerManue -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@1e1a0406]" started-at="2024-02-27T20:28:36 EST" name="closeBrowser" finished-at="2024-02-27T20:28:37 EST" duration-ms="805" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@1dde4cb2]" started-at="2024-02-27T20:44:41 EST" name="closeBrowser" finished-at="2024-02-27T20:44:43 EST" duration-ms="1308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

@@ -1,51 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-24T15:17:44 EST" name="Suite" finished-at="2024-02-24T15:17:55 EST" duration-ms="11534">
+  <suite started-at="2024-03-11T02:10:11 EDT" name="Suite" finished-at="2024-03-11T02:11:44 EDT" duration-ms="93061">
     <groups>
     </groups>
-    <test started-at="2024-02-24T15:17:44 EST" name="Run with Chrome Browser" finished-at="2024-02-24T15:17:55 EST" duration-ms="11534">
+    <test started-at="2024-03-11T02:10:11 EDT" name="Run with Chrome Browser" finished-at="2024-03-11T02:10:57 EDT" duration-ms="45887">
       <class name="testPage.HomePageTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@20140db9]" started-at="2024-02-24T15:17:44 EST" name="setup" finished-at="2024-02-24T15:17:52 EST" duration-ms="8487" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@1ed4ae0f]" started-at="2024-03-11T02:10:11 EDT" name="setup" finished-at="2024-03-11T02:10:35 EDT" duration-ms="24412" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logoTest()[pri:1, instance:testPage.HomePageTests@20140db9]" started-at="2024-02-24T15:17:52 EST" name="logoTest" finished-at="2024-02-24T15:17:52 EST" duration-ms="76" status="PASS">
+        <test-method signature="logoTest()[pri:1, instance:testPage.HomePageTests@1ed4ae0f]" started-at="2024-03-11T02:10:35 EDT" name="logoTest" finished-at="2024-03-11T02:10:35 EDT" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@20140db9]" started-at="2024-02-24T15:17:52 EST" name="closeBrowser" finished-at="2024-02-24T15:17:53 EST" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@1ed4ae0f]" started-at="2024-03-11T02:10:35 EDT" name="closeBrowser" finished-at="2024-03-11T02:10:36 EDT" duration-ms="900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@20140db9]" started-at="2024-02-24T15:17:53 EST" name="setup" finished-at="2024-02-24T15:17:55 EST" duration-ms="2452" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@1ed4ae0f]" started-at="2024-03-11T02:10:36 EDT" name="setup" finished-at="2024-03-11T02:10:45 EDT" duration-ms="8279" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="footerManue()[pri:3, instance:testPage.HomePageTests@20140db9]" started-at="2024-02-24T15:17:55 EST" name="footerManue" finished-at="2024-02-24T15:17:55 EST" duration-ms="36" status="PASS">
+        <test-method signature="titleTest()[pri:2, instance:testPage.HomePageTests@1ed4ae0f]" started-at="2024-03-11T02:10:45 EDT" name="titleTest" finished-at="2024-03-11T02:10:45 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@1ed4ae0f]" started-at="2024-03-11T02:10:45 EDT" name="closeBrowser" finished-at="2024-03-11T02:10:45 EDT" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@1ed4ae0f]" started-at="2024-03-11T02:10:45 EDT" name="setup" finished-at="2024-03-11T02:10:56 EDT" duration-ms="10315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="footerManue()[pri:3, instance:testPage.HomePageTests@1ed4ae0f]" started-at="2024-03-11T02:10:56 EDT" name="footerManue" finished-at="2024-03-11T02:10:56 EDT" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerManue -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@20140db9]" started-at="2024-02-24T15:17:55 EST" name="closeBrowser" finished-at="2024-02-24T15:17:55 EST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@1ed4ae0f]" started-at="2024-03-11T02:10:56 EDT" name="closeBrowser" finished-at="2024-03-11T02:10:57 EDT" duration-ms="921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testPage.HomePageTests -->
     </test> <!-- Run with Chrome Browser -->
+    <test started-at="2024-03-11T02:10:57 EDT" name="Run with Firefox Browser" finished-at="2024-03-11T02:11:44 EDT" duration-ms="47151">
+      <class name="testPage.HomePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@4d1c005e]" started-at="2024-03-11T02:10:57 EDT" name="setup" finished-at="2024-03-11T02:11:09 EDT" duration-ms="12812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logoTest()[pri:1, instance:testPage.HomePageTests@4d1c005e]" started-at="2024-03-11T02:11:09 EDT" name="logoTest" finished-at="2024-03-11T02:11:10 EDT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@4d1c005e]" started-at="2024-03-11T02:11:10 EDT" name="closeBrowser" finished-at="2024-03-11T02:11:10 EDT" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@4d1c005e]" started-at="2024-03-11T02:11:10 EDT" name="setup" finished-at="2024-03-11T02:11:27 EDT" duration-ms="16465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:2, instance:testPage.HomePageTests@4d1c005e]" started-at="2024-03-11T02:11:27 EDT" name="titleTest" finished-at="2024-03-11T02:11:27 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@4d1c005e]" started-at="2024-03-11T02:11:27 EDT" name="closeBrowser" finished-at="2024-03-11T02:11:28 EDT" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testPage.HomePageTests@4d1c005e]" started-at="2024-03-11T02:11:28 EDT" name="setup" finished-at="2024-03-11T02:11:41 EDT" duration-ms="12792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="footerManue()[pri:3, instance:testPage.HomePageTests@4d1c005e]" started-at="2024-03-11T02:11:41 EDT" name="footerManue" finished-at="2024-03-11T02:11:41 EDT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerManue -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPage.HomePageTests@4d1c005e]" started-at="2024-03-11T02:11:41 EDT" name="closeBrowser" finished-at="2024-03-11T02:11:44 EDT" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testPage.HomePageTests -->
+    </test> <!-- Run with Firefox Browser -->
   </suite> <!-- Suite -->
 </testng-results>
