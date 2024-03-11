@@ -19,9 +19,4 @@ pipeline {
         }
 
     }
-    post { 
-        always { 
-            emailext body: 'Please have a look for deployment of your project', subject: 'Deployment status', to: 'myutility.all@gmail.com'
-        }
-    }
 }
