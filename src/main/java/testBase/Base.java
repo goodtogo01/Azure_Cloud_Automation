@@ -1,7 +1,11 @@
 package testBase;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -9,14 +13,20 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import com.mongodb.MapReduceCommand.OutputType;
+
+import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class Base {
-    WebDriver driver;
+    public WebDriver driver;
+    String curentDir = System.getProperty("user.dir");
 
-    @Parameters("browser")
+    @SuppressWarnings("null")
+	@Parameters("browser")
     public void setup() {
     	String browser = null;
         if (browser.equalsIgnoreCase("chrome")) {
@@ -42,5 +52,11 @@ public class Base {
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.freshworks.com/");
+    }
+    
+    public void getScreenshoot(WebElement ele) throws IOException{
+//    	File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//    	FileUtils.copyFile(srcFile, new File(curentDir+"/ScreenShot/"+System.currentTimeMillis()+".png"));
+    	
     }
 }
